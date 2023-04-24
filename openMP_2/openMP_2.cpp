@@ -38,7 +38,7 @@ int main()
     }
 
     for (int i = 0; i < arr.size(); ++i) {
-        foo(arr[i], N_2, 5);
+        foo(arr[i], N_2, 12);
         std::cout << std::endl;
     }
 
