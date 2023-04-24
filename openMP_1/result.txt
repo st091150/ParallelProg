@@ -1,0 +1,10 @@
+num_threads: 4
+N: 1e6
+
+SeqMethod :
+result :3.141592654
+avgTime :0.005000019073sec
+
+ParMethod :
+result :3.141592654
+avgTime :0.001800012589sec
