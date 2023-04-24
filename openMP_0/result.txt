@@ -1,0 +1,3 @@
+SeqMethod avgTime :1.0984sec
+ParAtomMethod avgTime :5.091sec
+ParRedMethod avgTime :0.306sec
