@@ -1,0 +1,8 @@
+num_threads: 4
+
+seqMatMul
+avgTime: 4.6398
+
+parMatMul
+avgTime: 1.8272
+
