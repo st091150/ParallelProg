@@ -55,7 +55,7 @@ int main(int argc, char** argv) {
         endPoint = omp_get_wtime();
         avgTime += endPoint - startPoint;
     }
-    std::cout << "parMatMul\navgTime: " << avgTime / sup << std::endl;
+    std::cout << "seqMatMul\navgTime: " << avgTime / sup << std::endl;
 
 
 
@@ -74,7 +74,7 @@ int main(int argc, char** argv) {
         endPoint = omp_get_wtime();
         avgTime += endPoint - startPoint;
     }
-    std::cout << "seqMatMul\navgTime: " << avgTime / sup << std::endl;
+    std::cout << "parMatMul\navgTime: " << avgTime / sup << std::endl;
 
     return 0;
 }
