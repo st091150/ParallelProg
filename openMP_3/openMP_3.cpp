@@ -40,7 +40,6 @@ int main(int argc, char** argv) {
     int i, j, k;
     double startPoint, endPoint, avgTime = 0;
 
-    avgTime = 0;
     for (int i = 0; i < sup; ++i)
     {
         startPoint = omp_get_wtime();
@@ -58,7 +57,7 @@ int main(int argc, char** argv) {
     std::cout << "seqMatMul\navgTime: " << avgTime / sup << std::endl;
 
 
-
+    avgTime = 0;
     for (int i = 0; i < sup; ++i)
     {
         startPoint = omp_get_wtime();
