@@ -1,0 +1,4 @@
+SeqMethod
+Time(ms) 958.538303
+ParMethod
+Time(ms) 173.850879
