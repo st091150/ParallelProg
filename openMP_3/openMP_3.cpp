@@ -40,7 +40,7 @@ int main(int argc, char** argv) {
     int i, j, k;
     double startPoint, endPoint, avgTime = 0;
 
-    for (int i = 0; i < sup; ++i)
+    for (int p = 0; p < sup; ++p)
     {
         startPoint = omp_get_wtime();
         for (i = 0; i < n1; i++) {
@@ -58,7 +58,7 @@ int main(int argc, char** argv) {
 
 
     avgTime = 0;
-    for (int i = 0; i < sup; ++i)
+    for (int p = 0; p < sup; ++p)
     {
         startPoint = omp_get_wtime();
 #pragma omp parallel for shared(mat1, mat2, res) private(i, j, k)
